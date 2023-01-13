@@ -51,6 +51,7 @@ body{
         float: left;
         background-color: #4b5769;
         border-radius: 2px;
+        color:white;
     }
     #text{
         content:"";
@@ -65,6 +66,18 @@ body{
     }
     .profileLinks-style p a{
         color: #66dbca;
+    }
+    .hero-about{
+        color:#0ff;
+        width:83%;
+        border:2px solid #0ff;
+        float:left;
+    }
+    .about-background {
+        background-color: #162943;
+        padding: 20px;
+        width: 80%;
+        height:130px;
     }
     @media (max-width: 600px) { 
         .hero-flex{
