@@ -73,8 +73,8 @@ body{
 
         }
         .hero-second img{
-            text-align:center;
-            margin:0 auto;
+            width:50%!important;
+            height:50%!important;
         }
         #projects{
            display:block;
