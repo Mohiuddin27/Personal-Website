@@ -1,0 +1,76 @@
+body{
+    background-color: rgb(10, 25, 47)!important;
+   
+    
+  }
+  .navbar{
+      box-shadow: rgb(1 15 29) 0px 0px 20px 5px;
+      top: 0px;
+      position: sticky;
+      z-index: 1;
+  }
+  .navbar .navbar-brand{
+      color: #0ff;
+      cursor: pointer;
+      font-size: 1.75rem;
+  }
+  .navbar .navbar-brand:hover{
+      color: #0ff;
+      cursor: pointer;
+      font-size: 1.75rem;
+  }
+  .navbar-nav a{
+      color:white;
+      font-weight: 600;
+      font-size:1.10rem;
+      cursor: pointer;
+  }
+  .navbar-nav a:hover{
+      color:rgb(206, 203, 203);
+  }
+  .active {
+      color:white!important;
+      
+      text-decoration: underline!important;
+     text-decoration-color: #0ff!important;
+     text-decoration-thickness: 3px!important;
+   
+    }
+    .hero-first h6{
+      color:#0ff;
+    }
+     .navbar-toggler {
+        color: hsla(0,0%,100%,.5)!important;
+        border-color: rgba(255, 255, 255, 0.733)!important;
+        /* background-color: #0ff!important; */
+    }
+    .skill li {
+        display: inline;
+        margin: 5px;
+        padding: 0 4px;
+        float: left;
+        background-color: #4b5769;
+        border-radius: 2px;
+    }
+    #text{
+        content:"";
+    }
+    .profileLinks-style {
+        margin-top: 30px;
+    }
+    .profileLinks-style p {
+        margin-left: 20px;
+        font-size:20px;
+       
+    }
+    .profileLinks-style p a{
+        color: #66dbca;
+    }
+    @media (max-width: 600px) { 
+        .hero-flex{
+            display: flex;
+            flex-direction:column-reverse;
+
+        }
+       
+    }
