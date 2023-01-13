@@ -72,5 +72,17 @@ body{
             flex-direction:column-reverse;
 
         }
+        .hero-second img{
+            text-align:center;
+            margin:0 auto;
+        }
+        #projects{
+           display:block;
+           margin:0 auto;
+           text-align: center;
+        }
+        #projects .project-card{
+            width:100%!important;
+        }
        
     }
