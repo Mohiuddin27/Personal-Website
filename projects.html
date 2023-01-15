@@ -52,56 +52,30 @@
 
         </section>
         <!-- header end -->
-        <!-- hero section start -->
-        <section class="about-hero mt-5">
-            <div class="container">
-                <div class="row">
-                    <div class="col-md-6 col-sm-12">
-                        <img src="assets/img/mohi.jpg"
-                            style="width:50%;height:270px;object-fit:
-                            cover;border-radius: 50%;" alt="">
-                        <h4 class="text-light mt-3"><span style="color:#0ff">I'm
-                            </span>Md Mohiuddin</h4>
-                        <p class="text-light" style="text-align: justify;">A
-                            self-motivated and enthusiastic web developer.
-                            Strong in design and integration with intuitive
-                            problem-solving skills. Passionate about
-                            implementing and launching new projects. Ability to
-                            translate business requirements into technical
-                            solutions. Seeking a Web Developer position in a
-                            company where I can use my skills and develop my
-                            skills.
 
-                        </p>
-                    </div>
-                    <div class="col-md-6 col-sm-12">
-                        <h3 class="text-light">Programming Knowledge and skills</h3>
-                        <span class="hero-about"></span>
-                        <div class="mt-5 mb-5">
-                            <h4 class="text-light mb-3">Expertise::</h4>
-                            <div class="about-background expertise"><ul class="skill"><li>JavaScript</li><li>ES6</li><li>Html</li><li>CSS</li><li>Bootstrap</li><li>PHP</li><li>Laravel</li><li>MYSQL</li><li>Jquery</li><li>AJAX</li></ul></div>
-                        </div>
-                        <div class="mt-5 mb-5">
-                            <h4 class="text-light mb-3">Familiar::</h4>
-                            <div class="about-background familiar" style="height:80px"><ul
-                                    class="skill"><li>C</li><li>Python</li><li>React</li><li>Tailwind</li><li>JSON</li></ul></div>
-                        </div>
-                        <div class="mt-5 mb-5">
-                            <h4 class="text-light mb-3">Tools::</h4>
-                            <div class="about-background tools" style="height:100px"><ul
-                                    class="skill"><li>Git</li><li>VS Code</li><li>Netlify</li><li>Chrome Dev Tool</li><li>Stackoverflow</li></ul></div>
-                        </div>
-                    </div>
+
+
+        <!-- hero section end -->
+        <!-- card section start -->
+        <section class="my-project mt-5">
+            <h2 class="text-light text-center">My
+                <span style="color: #0ff;">Projects</span></h2>
+            <span class="pro"></span>
+
+        </section>
+        <section>
+            <div class="container projectss">
+                <div class="row mt-5 text-center" id="projects">
+
+
                 </div>
             </div>
         </section>
-        <!-- hero section end -->
-
 
         <!-- footer start -->
         <section>
             <div class="container">
-
+                
                 <div class="profileLinks-style d-flex justify-content-center"><p><a
                             href="https://github.com/Mohiuddin27"
                             target="_blank"><svg
@@ -218,7 +192,7 @@
             integrity="sha256-pvPw+upLPUjgMXY0G+8O0xUf+/Im1MZjXxxgOcBQBXU="
             crossorigin="anonymous"></script>
         <script>
-   
+      
     document.querySelectorAll(".nav-link").forEach((link) => {
     if (link.href === window.location.href) {
         link.classList.add("active");
@@ -226,5 +200,179 @@
     }
 });
     </script>
+        <script
+            src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"
+            integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4"
+            crossorigin="anonymous"></script>
+        <script>
+      let project_div=document.getElementById('projects');
+       let projectArray=[
+        {
+          img:"https://i.ibb.co/SQjXKYJ/project1.png",
+          name:"Hospital Management System",
+          technology:[
+            'html','css','bootstrap','javascript','jquery','ajax','php','laravel','mysql'
+          ],
+          weblink:"https://tlhealthcheckupcenter.com/",
+          github:"#"
+        },
+        {
+          img:"https://i.ibb.co/TbK0b68/project2.png",
+          name:"E-commerce Website",
+          technology:[
+            'html','css','bootstrap','javascript','jquery','ajax','php','laravel','mysql'
+          ],
+          weblink:"http://lnsaratrading.com/",
+          github:"#"
+        },
+        {
+          img:"https://i.ibb.co/vzWm1zt/project3.png",
+          name:"Business Website",
+          technology:[
+            'html','css','bootstrap','javascript','jquery','ajax','php','laravel','mysql'
+          ],
+          weblink:"https://tradeinfo.com.bd/info",
+          github:"#"
+         },
+        
+         {
+            img:" https://i.ibb.co/ScWYSwL/project4.png",
+          name:"Blogging Website",
+          technology:[
+            'html','css','bootstrap','javascript','jquery','ajax','php','laravel','mysql'
+          ],
+          weblink:"#",
+          github:"https://github.com/Mohiuddin27/Mini_Blog_Site"
+         },
+         {
+            img:" https://i.ibb.co/XYwqSSs/project5.png",
+          name:"URL shortening,DOCX to PDF,PDF to IMAGE Convertor",
+          technology:[
+            'html','css','bootstrap','php','laravel','mysql'
+          ],
+          weblink:"#",
+          github:"https://github.com/Mohiuddin27/Laravel_ShortUrl_Image_editor_DocxtoPdf_PdftoImage"
+         },
+         {
+            img:"https://i.ibb.co/qNg0FZZ/project6.png",
+          name:"School Management System",
+          technology:[
+            'html','css','bootstrap','javascript','jquery','php','mysql'
+          ],
+          weblink:"#",
+          github:"https://github.com/Mohiuddin27/SchoolManagementSystem"
+         },
+         {
+            img:"https://i.ibb.co/589nryK/Development-Area.png",
+          name:"Blood Donation Site",
+          technology:[
+            'html','css','bootstrap','javascript','jquery','php','mysql'
+          ],
+          weblink:"#",
+          github:"https://github.com/Mohiuddin27/BloodDonation"
+         },
+         {
+            img:"https://i.ibb.co/8xmJPJH/Development-Area-1.png",
+          name:"Social Pro (Implement some features of Facebook)",
+          technology:[
+            'html','css','bootstrap','javascript','jquery','php','mysql'
+          ],
+          weblink:"#",
+          github:"https://github.com/Mohiuddin27/Social_mini_project_using_rawphp_and_mysql"
+         },
+         {
+            img:"https://i.ibb.co/BBJJfBv/project8.png",
+          name:"Select Bets Five (A javaScript project Using DOM ,EVENT and FUNCTION)",
+          technology:[
+            'html','css','bootstrap','javascript'
+          ],
+          weblink:"https://mohiuddin27.github.io/Select_Bets_Five/",
+          github:"https://github.com/Mohiuddin27/Select_Bets_Five"
+         },
+         {
+            img:"https://i.ibb.co/BPZkdCR/News-Today.png",
+          name:"API Project Using Javascript",
+          technology:[
+            'html','css','bootstrap','javascript'
+          ],
+          weblink:"https://mohiuddin27.github.io/News-Today/",
+          github:"https://github.com/Mohiuddin27/News-Today"
+         },
+         {
+            img:"https://i.ibb.co/7W9mfnn/pin-matcher.png",
+          name:"PIN Matcher",
+          technology:[
+            'html','css','bootstrap','javascript'
+          ],
+          weblink:"https://mohiuddin27.github.io/Pin-Matcher/",
+          github:"https://github.com/Mohiuddin27/Pin-Matcher"
+         },
+         {
+            img:"https://i.ibb.co/KxV0mMJ/pioneer-bank.png",
+          name:"Pioneer Bank (Simple Project using Javascript)",
+          technology:[
+            'html','css','bootstrap','javascript'
+          ],
+          weblink:"https://mohiuddin27.github.io/pioneer-bank/",
+          github:"https://github.com/Mohiuddin27/pioneer-bank"
+         },
+         {
+            img:"https://i.ibb.co/HCsMgHs/tailwind.png",
+          name:"Landing Page using Tailwind",
+          technology:[
+            'html','css','tailwind'
+          ],
+          weblink:"https://mohiuddin27.github.io/tailwind-landing-page/",
+          github:"https://github.com/Mohiuddin27/tailwind-landing-page"
+         },
+         {
+          img:"https://i.ibb.co/qYRq7Jz/school-of-thought.png",
+          name:"Single Page Design",
+          technology:[
+            'html','css','bootstrap'
+          ],
+          weblink:"https://mohiuddin27.github.io/SchoolOfThought/",
+          github:"https://github.com/Mohiuddin27/SchoolOfThought"
+         }
+       ];
+       project_div.innerHTML=`
+         ${projectArray.map(project =>`
+          
+          <div class="col-md-4 col-lg-4 col-sm-12 mb-5 overflow-hidden project-card">
+            <div class="card pb-3" style="width: 348px; height: 374px; background-color: rgb(22, 41, 67);">
+              <img class="card-img-top" src="${project.img}">
+              <div class="card-body">
+                <div class="card-title text-light">
+                  <h5>${project.name}</h5>
+                 </div>
+                 <div>
+                  <h6 class="text-light">Technology ::</h6>
+                  <ul class="skill">
+                    ${(project.technology).map(tech=>
+                      `<li class="text-light">${tech}</li>`
+                    ).join('')}
+                    
+                  </ul>
+
+                 </div>
+                 
+            
+              </div> 
+              <div class="d-flex justify-content-around">
+                  <a class="card-link" href="${project.weblink}" target="_blank">
+                    <svg stroke="currentColor" fill="none" stroke-width="2" viewBox="0 0 24 24" stroke-linecap="round" stroke-linejoin="round" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg" style="font-size: 30px;"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path>
+                      <polyline points="15 3 21 3 21 9"></polyline>
+                      <line x1="10" y1="14" x2="21" y2="3"></line></svg></a>
+                      <a class="card-link" href="${project.github}" target="_blank"><svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 16 16" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg" style="font-size: 30px;"><path fill-rule="evenodd" d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.013 8.013 0 0 0 16 8c0-4.42-3.58-8-8-8z"></path>
+                        </svg></a>
+              </div>
+              
+          </div>
+        </div>
+          
+          `).join("")}
+        `;
+      
+  </script>
     </body>
 </html>

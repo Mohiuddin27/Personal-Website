@@ -79,6 +79,15 @@ body{
         width: 80%;
         height:130px;
     }
+    .pro{
+        color:#0ff;
+        width:15%;
+        border:2px solid #0ff;
+        /* float:left; */
+        display: block;
+        margin:0 auto;
+        text-align: center;
+    }
     @media (max-width: 600px) { 
         .hero-flex{
             display: flex;
