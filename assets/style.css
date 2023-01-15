@@ -97,5 +97,22 @@ body{
         #projects .project-card{
             width:100%!important;
         }
+        .about-hero img{
+            text-align: center;
+            margin:0 auto;
+            display:block;
+            width:240px!important;
+            height:250px!important;
+            border-radius: 50%!important;
+        }
+        .expertise{
+            height:180px!important;
+        }
+        .familiar{
+            height:100px!important;
+        }
+        .tools{
+            height:130px!important;
+        }
        
     }
