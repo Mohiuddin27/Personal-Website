@@ -191,35 +191,46 @@
 
       <!-- card section end -->
       <!-- Messenger Chat plugin Code -->
-    <div id="fb-root"></div>
+   <div id="fb-root"></div>
 
-    <!-- Your Chat plugin code -->
-    <div id="fb-customer-chat" class="fb-customerchat">
-    </div>
+<!-- Your Chat plugin code -->
+<div id="fb-customer-chat" class="fb-customerchat"></div>
 
-    <script>
-      var chatbox = document.getElementById('fb-customer-chat');
-      chatbox.setAttribute("page_id", "101183729550654");
-      chatbox.setAttribute("attribution", "biz_inbox");
-    </script>
+<script>
+  var chatbox = document.getElementById('fb-customer-chat');
+  chatbox.setAttribute("page_id", "101183729550654");
+  chatbox.setAttribute("attribution", "biz_inbox");
+</script>
 
-    <!-- Your SDK code -->
-    <script>
-      window.fbAsyncInit = function() {
-        FB.init({
-          xfbml            : true,
-          version          : 'v19.0'
-        });
-      };
+<!-- Updated Facebook SDK Code -->
+<script>
+  window.fbAsyncInit = function() {
+    FB.init({
+      xfbml: true,
+      version: 'v19.0' // Updated version
+    });
+  };
 
-      (function(d, s, id) {
-        var js, fjs = d.getElementsByTagName(s)[0];
-        if (d.getElementById(id)) return;
-        js = d.createElement(s); js.id = id;
-        js.src = 'https://connect.facebook.net/en_US/sdk/xfbml.customerchat.js';
-        fjs.parentNode.insertBefore(js, fjs);
-      }(document, 'script', 'facebook-jssdk'));
-    </script>
+  (function(d, s, id) {
+    var js, fjs = d.getElementsByTagName(s)[0];
+    if (d.getElementById(id)) return;
+    js = d.createElement(s); js.id = id;
+    js.src = 'https://connect.facebook.net/en_US/sdk/xfbml.customerchat.js';
+    fjs.parentNode.insertBefore(js, fjs);
+  }(document, 'script', 'facebook-jssdk'));
+</script>
+
+<script src="https://code.jquery.com/jquery-3.6.3.min.js" integrity="sha256-pvPw+upLPUjgMXY0G+8O0xUf+/Im1MZjXxxgOcBQBXU=" crossorigin="anonymous"></script>
+
+<script>
+  document.querySelectorAll(".nav-link").forEach((link) => {
+    if (link.href === window.location.href) {
+      link.classList.add("active");
+      link.setAttribute("aria-current", "page");
+    }
+  });
+</script>
+
       <script
 
 
